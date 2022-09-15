@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso DatabaseDesign</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+           overflow: hidden;
+        }
+
+        div {
+           width: 100vw;
+           height: 100vh;
+        }
+
+        @media screen and (orientation: landscape) {
+            div#paisagem{
+                width: 100vw;
+                height: 100vh;
+            }
+            div#retrato{
+                display: none;
+            }
+        }
+
+        @media screen and (orientation: portrait) {   
+            div#retrato{
+                width: 100vw;
+                height: 100vh;
+            }
+            div#paisagem{
+                display: none; 
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+       <div id="paisagem">
+            <img src="../imgs/PaiDesign.PNG" alt="certificado node">
+       </div>
+       <div id="retrato">
+        <img src="../imgs/RetDesign.PNG" alt="certificado node">
+   </div>
+</body>
+</html>
